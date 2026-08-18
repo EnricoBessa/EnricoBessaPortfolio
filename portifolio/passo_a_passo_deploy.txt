@@ -1,0 +1,14 @@
+APAGA A BRANCH
+git push origin --delete gh-pages
+
+ENTRA NA PASTA PORTIFOLIO
+cd .\portifolio\
+
+ADICIONA PACOTE
+npm install gh-pages --save-dev
+
+RODA O PRADEPLOY
+npm run predeploy
+
+RODA O DEPLOY
+npm run deploy
