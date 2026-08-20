@@ -55,6 +55,9 @@ diretamente, evitando divergência entre telas.
 cd portifolio
 npm install
 npm run dev
+
+npm run build
+npm run deploy
 ```
 
 ---
