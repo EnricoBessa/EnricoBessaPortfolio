@@ -2,7 +2,7 @@
 
 Bem-vindo ao meu portfólio online! Aqui você pode conhecer meus projetos, minhas habilidades e meus certificados.
 
-🧑‍💻 **Acesse meu site**: [Enrico Bessa Portfolio](https://enricobessa.github.io/EnricoBessaPortifolio/)
+🧑‍💻 **Acesse meu site**: [Enrico Bessa Portfolio](https://enricobessa.github.io/EnricoBessaPortfolio/)
 
 ---
 
