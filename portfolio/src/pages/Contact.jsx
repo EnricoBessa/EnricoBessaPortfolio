@@ -2,7 +2,6 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaUser, FaEnvelope, FaCommentDots } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
-import { CONTACT } from '../constants/contact';
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -40,11 +39,11 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLETE_ID,
         {
-          from_name: form.name,
-          from_email: form.email,
-          to_name: 'Enrico Bessa',
-          to_email: CONTACT.email,
+          name: form.name,
+          email: form.email,
           message: form.message,
+          title: 'Contato via portfólio',
+          time: new Date().toLocaleString('pt-BR'),
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       )
